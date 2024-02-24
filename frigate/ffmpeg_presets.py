@@ -65,8 +65,8 @@ PRESETS_HW_ACCEL_DECODE = {
     "preset-nvidia-mjpeg": "-hwaccel cuda -hwaccel_output_format cuda",
     "preset-jetson-h264": "-c:v h264_nvmpi -resize {1}x{2}",
     "preset-jetson-h265": "-c:v hevc_nvmpi -resize {1}x{2}",
-    "preset-rk-h264": "-hwaccel rkmpp -hwaccel_output_format drm_prime -afbc rga",
-    "preset-rk-h265": "-hwaccel rkmpp -hwaccel_output_format drm_prime -afbc rga",
+    "preset-rk-h264": "-hwaccel rkmpp -hwaccel_output_format drm_prime",
+    "preset-rk-h265": "-hwaccel rkmpp -hwaccel_output_format drm_prime",
 }
 
 PRESETS_HW_ACCEL_SCALE = {
